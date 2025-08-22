@@ -9,7 +9,7 @@ load_dotenv()
 
 # Конфигурация бота
 BOT_TOKEN = os.getenv('BOT_TOKEN', '8331497095:AAGc-Esw3Meuu-a7xyaxuc2GyEJsL37htas')
-WEBAPP_URL = os.getenv('WEBAPP_URL', 'https://your-domain.com')  # Замените на ваш домен
+WEBAPP_URL = os.getenv('WEBAPP_URL', 'http://localhost:8000')  # Локальный сервер для разработки
 TIMEZONE = os.getenv('TIMEZONE', 'Europe/Moscow')
 
 # Настройки базы данных
